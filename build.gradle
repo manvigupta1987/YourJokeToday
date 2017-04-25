@@ -11,6 +11,29 @@ buildscript {
     }
 }
 
+
+task runTest (){
+    dependsOn {
+        "app:connectedCheck"
+    }
+    doLast {
+        println "All tests complete"
+    }
+}
+
+//This task starts the the app engine, runs the test  for the Async Task, and finally stops the app engine
+task runAppEngineAndTest (dependsOn: ":jokebackend:appengineRun") {
+    project(":jokebackend").afterEvaluate { backend ->
+        backend.extensions.appengine.daemon = true
+    }
+    doLast {
+        println "started the server!"
+    }
+}
+
+runAppEngineAndTest.finalizedBy runTest
+runTest.finalizedBy ":jokebackend:appengineStop"
+
 allprojects {
     repositories {
         jcenter()
