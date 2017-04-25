@@ -18,6 +18,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        shrunk{
+            minifyEnabled true
+            shrinkResources true
+        }
     }
     productFlavors {
         free {

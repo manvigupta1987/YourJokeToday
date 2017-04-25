@@ -19,7 +19,6 @@ import java.util.concurrent.ExecutionException;
 public class ApplicationTest extends ApplicationTestCase<Application>{
 
     String mResult = "";
-    CountDownLatch signal = null;
 
     public ApplicationTest() {
         super(Application.class);
