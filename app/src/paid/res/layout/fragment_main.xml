@@ -9,19 +9,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivityFragment">
 
-    <TextView
-        android:id="@+id/instructions_text_view"
+    <TextView android:text="@string/instructions"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/instructions" />
+        android:id="@+id/instructions_text_view"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/instructions_text_view"
-        android:id="@+id/button"
+        android:text="@string/button_text"
         android:onClick="tellJoke"
-        android:text="@string/button_text" />
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button" />
+
 
     <ProgressBar
         style="?android:attr/progressBarStyleLarge"

@@ -52,7 +52,7 @@
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="738782be283114a1c74658eab04fb261d2999890">
+        sha1="17974d19c3d704227d58b921e8da7be11880d223">
         <dex dex="/home/manvi/gitRepos/buildItBigger/app/build/intermediates/pre-dexed/free/debug/jokebackend-android-endpoints_2f5513b45af66d161fae523d692e38854adf110c.jar" />
     </item>
     <item

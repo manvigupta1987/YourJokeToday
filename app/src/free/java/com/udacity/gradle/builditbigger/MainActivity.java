@@ -21,27 +21,18 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar mSpinner;
     private TextView mtextView;
     private Button mButton;
-    private Context context;
+    private Context mContext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        context = this;
+        mContext = this;
         mSpinner = (ProgressBar)findViewById(R.id.progressBar);
         mtextView = (TextView) findViewById(R.id.instructions_text_view);
         mButton = (Button) findViewById(R.id.button);
 
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-4862241919033566/9126414138");
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                requestNewInterstitial();
-                new EndpointsAsyncTask().execute(context);
-            }
-        });
-
+        mInterstitialAd.setAdUnitId(getResources().getString(R.string.interstitial_ad_unit_id));
         requestNewInterstitial();
     }
 
@@ -49,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
-
         mInterstitialAd.loadAd(adRequest);
     }
 
@@ -83,12 +73,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        showProgressBar();
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         } else {
+            showProgressBar();
             new EndpointsAsyncTask().execute(this);
         }
+
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                requestNewInterstitial();
+                showProgressBar();
+                new EndpointsAsyncTask().execute(mContext);
+            }
+        });
     }
 
     private void showProgressBar(){
