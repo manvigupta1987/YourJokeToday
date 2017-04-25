@@ -25,16 +25,6 @@ public class ApplicationTest extends ApplicationTestCase<Application>{
         super(Application.class);
     }
 
-//    @Override
-//    protected void setUp() throws Exception {
-//        signal = new CountDownLatch(1);
-//    }
-//
-//    @Override
-//    protected void tearDown() throws Exception {
-//        signal.countDown();
-//    }
-
     @Test
     public void testAlbumGetTask() throws InterruptedException {
 

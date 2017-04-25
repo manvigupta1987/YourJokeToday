@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -15,12 +18,19 @@ import com.google.android.gms.ads.InterstitialAd;
 public class MainActivity extends AppCompatActivity {
 
     InterstitialAd mInterstitialAd;
+    private ProgressBar mSpinner;
+    private TextView mtextView;
+    private Button mButton;
     private Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         context = this;
+        mSpinner = (ProgressBar)findViewById(R.id.progressBar);
+        mtextView = (TextView) findViewById(R.id.instructions_text_view);
+        mButton = (Button) findViewById(R.id.button);
+
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId("ca-app-pub-4862241919033566/9126414138");
 
@@ -45,6 +55,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        showTextViewNButton();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -67,10 +83,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
+        showProgressBar();
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         } else {
             new EndpointsAsyncTask().execute(this);
         }
+    }
+
+    private void showProgressBar(){
+        mSpinner.setVisibility(View.VISIBLE);
+        mtextView.setVisibility(View.INVISIBLE);
+        mButton.setVisibility(View.INVISIBLE);
+    }
+
+    private void showTextViewNButton(){
+        mSpinner.setVisibility(View.GONE);
+        mtextView.setVisibility(View.VISIBLE);
+        mButton.setVisibility(View.VISIBLE);
     }
 }
