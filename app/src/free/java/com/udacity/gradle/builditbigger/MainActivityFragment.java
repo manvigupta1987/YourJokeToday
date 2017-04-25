@@ -7,8 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 
 import butterknife.BindView;
@@ -20,7 +22,6 @@ import butterknife.ButterKnife;
  */
 public class MainActivityFragment extends Fragment {
 
-
     @BindView(R.id.adView) AdView mAdView;
     public MainActivityFragment() {
     }
@@ -31,11 +32,7 @@ public class MainActivityFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
 
         ButterKnife.bind(this, root);
-        //MobileAds.initialize(getActivity(), "ca-app-pub-3940256099942544~3347511713");
         MobileAds.initialize(getActivity()," ca-app-pub-4862241919033566~4119621734");
-        // Create an ad request. Check logcat output for the hashed device ID to
-        // get test ads on a physical device. e.g.
-        //AdRequest.Builder.addTestDevice("ABCDEF012345");
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
