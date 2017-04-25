@@ -3,201 +3,210 @@
 
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/d97108146663a8c0dd79b0cd8b3a8014a999427d/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_eb2497669212def8edb600f19d0dc165a8c0c549.jar" />
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/jsr305-2.0.1_8b74dc593558d8f3362909318f0437dca394af74.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/509d8a6822fbdcbdbd9d9e9404c28d7bf5a78975/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.20.0/1d086ac5756475ddf451af2e2df6e288d18608ca/google-oauth-client-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_888f7df732521d76c2e9f240e1030c938d79357f.jar" />
+        sha1="1d086ac5756475ddf451af2e2df6e288d18608ca">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/google-oauth-client-1.20.0_e3f0928f99e348632a8492513d82cc9dc18450f3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/fec6703c931621070f93fc29c3ae3d34e7171ffc/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_8ffcedf51182bd3fcdc377b2e3b19a3bb943411f.jar" />
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/hamcrest-integration-1.3_1079a5409cca50337d0d3a2411b8f3b7f74c2e53.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/ee45659770f7dce92cd9fbd32291904565db4f1f/output/jars/libs/internal_impl-25.0.0.jar"
+        jar="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/jokebackend/build/libs/jokebackend-android-endpoints.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_d85f613c07e3d6dffd65d49e1aa46224e2a618c0.jar" />
+        sha1="1f90abf85da0fc8cff3773ff174d2e90c5e18266">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/jokebackend-android-endpoints_71c520bd1e5a2f57806cb9cef4a146767ed4a6ef.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/a27121118ddc452e2dbce81d6a5f229a3783a82f/output/jars/classes.jar"
+        jar="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/jokedisplayandroid/build/intermediates/bundles/default/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_31a37a05697ce34278337df415d6294231613af3.jar" />
+        sha1="b88539853be4f8b445af9caa217e37685d4262a9">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/classes_dec64e59dc25c2e2d7e3779c113b3d186bee9414.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_df6db4368b87f3971135bfb56e8c5ae413624997.jar" />
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/jackson-core-2.1.3_2cf3cd870309d3741adb6234a79a4300a08590c1.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/6db8aad4d2581fb8effa651207b239bdab841f36/output/jars/classes.jar"
+        jar="/home/manvi/.android/build-cache/f9286c96da1a7c65268a316ac6c19a5c6d3b678c/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_f5edbb7470c97ca56a25d78a708c4a83a0095806.jar" />
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/classes_81c8bc0f4122ee80d6fbf2ceb0d3c55b6fc9178c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/9bf7b66445d473af691b7e4e2e48eef3e9159e37/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_efd3a9829dc5211eb684be131fd57f6ddb923dcf.jar" />
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/junit-4.12_9e38e9d0aad071e3888618077a316a4c26283254.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/e19b4f26ba3ffc7a95bbfc3b1c4f54e43b87f142/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_420c8c48378257b3e72b98d333ede6b4b062d2d3.jar" />
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/hamcrest-library-1.3_7ae4dad7753a04ecacf07cec61487d13fff40589.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/805d253d719137b59b0ff10c088ecd0ec026de70/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_0d65cac729fd86255a40455e9ba3f812d9ccb271.jar" />
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/hamcrest-core-1.3_1b1374b938dd683364d4e849dca7a4a3604e4834.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/2040dccb13a4e382eae93f5c506028b44cbd90ef/output/jars/libs/internal_impl-25.0.0.jar"
+        jar="/home/manvi/.android/build-cache/173859ece93dc03d720df4d075b298d213078671/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_ecca0d5b8b8b5a518eaf8f65a51ca7a8c59fa33a.jar" />
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/classes_c50335f55a0b094c10b895c7eb73eeae10271b16.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/26d436ec58bd2e2714cff2c314cb0334af80f4b7/output/jars/classes.jar"
+        jar="/home/manvi/.android/build-cache/13e319f5e04cd1c5b6ef26e74161de77ffaef41a/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_40cf5f7a39d573c235ee49278d090b13a51216c0.jar" />
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/classes_d184e0e58ff28d001357deaa933d31a538583837.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/ee45659770f7dce92cd9fbd32291904565db4f1f/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_a82001c7d407ca35072176fc6cb927804b112c13.jar" />
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/javax.annotation-api-1.2_46c48d97c061c7980484b355254433593a867312.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/201a1f9d3788f1ef97c2b953d68b72e7a9a071c0/output/jars/libs/internal_impl-25.0.0.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.20.0/2408070b2abec043624d35b35e30450f1b663858/google-http-client-jackson2-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_a21cb37af2e5bda19fd9c24d2ce0ddfcd6171f25.jar" />
+        sha1="2408070b2abec043624d35b35e30450f1b663858">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/google-http-client-jackson2-1.20.0_7a8d91298d39e6b06fa0acd224cfe2ba0572d453.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/5fd7d145c2d7e029cc4a3c8bb963c069da175fd9/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.20.0/5673179575c32b69a474334255c3044adf18d40/google-api-client-android-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_50ac035c402ae054f64ec7333f7084c51abc7058.jar" />
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/google-api-client-android-1.20.0_ee02196f1532159c8633d6de661ea801c2b7e7bc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/d97108146663a8c0dd79b0cd8b3a8014a999427d/output/jars/libs/internal_impl-25.0.0.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.20.0/d3e66209ae9e749b2d6833761e7885f60f285564/google-api-client-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_f982804524e8af83ba32b38f21a545e01ca1d40d.jar" />
+        sha1="d3e66209ae9e749b2d6833761e7885f60f285564">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/google-api-client-1.20.0_0dffa9d6810c9ef081ddc6e49c928553cc80ec52.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/75dbedbed55fe04f5c959da9c724006e4869d467/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_00477c8162c1b97c58812ec18e787746fac7b5ae.jar" />
+        sha1="381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/guava-jdk5-13.0_bde05da91c2fcf9d6c6c9890ca2cc905a2857e79.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/7de03a91a005e0fc959863f9db6b4c669af76e29/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_38722716db19db381cc044fa3cc262876b03bc1d.jar" />
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/javax.inject-1_3b065deb75639ed706aee45cd70b1468e06d3fc5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/2040dccb13a4e382eae93f5c506028b44cbd90ef/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.20.0/313dc99a7963523871495897ca11aa8472b3c6fd/google-http-client-android-1.20.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_49713837f1c039e9da2cd4da134c79282e93fe54.jar" />
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/google-http-client-android-1.20.0_01df2cf13f7c181629599d3193a8e50fae9a3010.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/201a1f9d3788f1ef97c2b953d68b72e7a9a071c0/output/jars/classes.jar"
+        jar="/home/manvi/.android/build-cache/f10458317f2d1bb823f47c00a4a057fbfe05cfcd/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_dcf9f56e59bc8a50d8b9b69b8a2d00e000d2045f.jar" />
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/classes_3289b91c9e42177de47a4daea7593d73ffeb4ae6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/a27121118ddc452e2dbce81d6a5f229a3783a82f/output/jars/libs/internal_impl-25.0.0.jar"
+        jar="/home/manvi/.android/build-cache/29051456207422c8f95aa2e58890c9239512b13f/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_7650b27cae932f6b8cc035c0c9057ec171b463e8.jar" />
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/classes_77df6d815542eb3c645d90ffe57444c276b943b4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/manvi/.android/build-cache/85bb3af34d13042af7f1843fb7d913ca036707cb/output/jars/classes.jar"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
-        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/debug/classes_08a053a67af7abec8ff1d617939f49f0678a1b0a.jar" />
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/androidTest/free/debug/javawriter-2.1.1_9fb0702dac243a30d5682982fa133cafaa025e27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/manvi/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.22.0/d441fc58329c4a4c067acec04ac361627f66ecc8/google-http-client-1.22.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d441fc58329c4a4c067acec04ac361627f66ecc8">
+        <dex dex="/home/manvi/AndroidStudioProjects/NanoDegreeProgram/Projects/buildItBigger/app/build/intermediates/pre-dexed/free/debug/google-http-client-1.22.0_7bd2c8c0863e80141f12600389eeecdd867d52ec.jar" />
     </item>
 
 </items>
